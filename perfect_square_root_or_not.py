@@ -1,7 +1,7 @@
-a=int(input())
-rt=(a**0.5)
-c=int(rt)**2
-if(c==a):
-    print("True")
+n=int(input())
+sr = n**0.5
+perfect = sr == int(sr)
+if perfect:
+    print(True)
 else:
-        print("False")
+    print(False)
